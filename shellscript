@@ -9,7 +9,6 @@ read destino
 echo "Digite a frequência de backup em segundos:"
 read frequencia
 
-# Verificar se os diretórios existem
 if [ ! -d "$origem" ]; then
     echo "Diretório de origem não existe."
     exit 1
